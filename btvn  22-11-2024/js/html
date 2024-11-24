@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển Đổi Nhiệt Độ C sang F</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1 class="efect">Chuyen nhiet do C sang F</h1>
+    <label for="nhapdoC" class="edit1">Nhap nhiet do C:</label>
+    <input type="number" id="nhapdoC" placeholder="Nhập độ C">
+    <button onclick="nhietdoCsangF()"style="border-radius: 5px;">Chuyen</button>
+    <p id="KQ" class="edit1">Nhiet do F: </p>
+
+    <h1 class="efect">Tinh dien tich</h1>
+
+    <h2 class="edit">Hinh chu nhat</h2>
+    <label for="chieudai" class="edit1">Nhap chieu dai:</label>
+    <input type="number" id="chieudai" placeholder="Nhap chieu dai">
+    <label for="chieurong" class="edit1">Nhap chieu rong:</label>
+    <input type="number" id="chieurong" placeholder="Nhap chieu rong">
+    <button onclick="calculateRectangleArea()"style="border-radius: 5px;">Tinh</button>
+    <div class="edit1">Ket qua: <span id="KQHCN"></span></div>
+
+    <h2 class="edit">Hinh tam giac</h2>
+    <label for="chieuday" class="edit1">Nhap chieu day:</label>
+    <input type="number" id="chieuday" placeholder="Nhap chieu day">
+    <label for="chieucao" class="edit1">Nhap chieu cao:</label>
+    <input type="number" id="chieucao" placeholder="Nhap chieu cao">
+    <button onclick="calculateTriangleArea()"style="border-radius: 5px;">Tinh</button>
+    <div class="edit1">Ket qua: <span id="KQHTG"></span></div>
+
+    <h2 class="edit">Hinh vuong</h2>
+    <label for="chieudaicanh" class="edit1">Nhap chieu dai canh:</label>
+    <input type="number" id="chieudaicanh" placeholder="Nhap chieu dai canh">
+    <button onclick="calculateSquareArea()" style="border-radius: 5px;">Tinh</button>
+    <div class="edit1">Ket qua: <span id="KQHV"></span></div>
+    
+    <script src="js/main1.js" defer></script>
+
+</body>
+</html>
